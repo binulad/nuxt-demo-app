@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  @apply bg-gray-50;
+}
+
+.router-link-exact-active {
+  color: $primary;
+}
+
+.thumb {
+  max-height: 120px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+#__nuxt {
+  height: 100%;
+  width: 100%;
+}
